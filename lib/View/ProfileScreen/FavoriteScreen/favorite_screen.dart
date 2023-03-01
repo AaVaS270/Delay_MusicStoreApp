@@ -79,7 +79,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                 colors: colors,
                 textStyle: textStyle,
                 title: "Favorites",
-                content: "you haven't added anything yet ",
+                content: "You haven't added anything yet ",
                 lottieName: emptyListLottie);
           }
           return Container();

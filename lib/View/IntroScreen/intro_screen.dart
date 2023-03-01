@@ -22,21 +22,21 @@ class _IntroScreenState extends State<IntroScreen> {
   late List<ContentConfig> contentList = [
     ContentConfig(
         backgroundColor: colors.primary,
-        title: "E-commerce X",
+        title: "Delay",
         description:
-            "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
+            "One place for all your needs",
         pathImage: manImage),
     ContentConfig(
         backgroundColor: colors.primary,
-        title: "E-commerce X",
-        description:
-            "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
+        title: "Delay",
+        // description:
+        //     "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
         pathImage: aboutImage),
     ContentConfig(
         backgroundColor: colors.primary,
-        title: "E-commerce X",
-        description:
-            "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
+        title: "Delay",
+        // description:
+        //     "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
         pathImage: contentImage)
   ];
   @override

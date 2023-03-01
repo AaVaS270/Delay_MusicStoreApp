@@ -45,7 +45,7 @@ class _AddressScreenState extends State<AddressScreen> {
           if (state is AddressEditedSuccessfully) {
             snackBar(
                 title: "Address",
-                message: "Your address edited successfully",
+                message: "Address edited successfully",
                 textStyle: textStyle,
                 colors: colors);
           }
@@ -167,7 +167,7 @@ class _AddressScreenState extends State<AddressScreen> {
 
                     return Container(
                       decoration: BoxDecoration(
-                          color: colors.gray,
+                          color: colors.whiteColor,
                           borderRadius: BorderRadius.circular(12)),
                       margin: const EdgeInsets.fromLTRB(15, 10, 15, 15),
                       padding: const EdgeInsets.all(12),
@@ -348,7 +348,7 @@ class _AddressScreenState extends State<AddressScreen> {
                   height: 60,
                   width: Get.size.width * 0.5,
                   child: FloatingActionButton.extended(
-                      backgroundColor: colors.primary,
+                      backgroundColor: colors.blackColor,
                       onPressed: () {
                         addAddressBottomSheet(
                             scrollPhysics: defaultPhysics,
@@ -390,7 +390,7 @@ class _AddressScreenState extends State<AddressScreen> {
                       label: AutoSizeText(
                         "Add new address",
                         style: textStyle.bodyNormal
-                            .copyWith(color: colors.whiteColor),
+                            .copyWith(color: colors.blackColor),
                         maxLines: 2,
                       )),
                 ),
@@ -404,7 +404,7 @@ class _AddressScreenState extends State<AddressScreen> {
                     Padding(
                       padding: const EdgeInsets.fromLTRB(15, 20, 15, 0),
                       child: AutoSizeText(
-                        "your address list is empty try to add new one",
+                        "You haven't added a shipping address",
                         style: textStyle.bodyNormal
                             .copyWith(fontWeight: FontWeight.bold),
                         maxLines: 2,

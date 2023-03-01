@@ -73,7 +73,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 20, right: 20),
                   child: CupertinoTheme(
-                    data: CupertinoThemeData(primaryColor: colors.primary),
+                    data: CupertinoThemeData(primaryColor: colors.blackColor),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(12),
                       child: CupertinoButton.filled(
@@ -149,7 +149,7 @@ class _DetailScreenState extends State<DetailScreen> {
                     margin: const EdgeInsets.only(
                       top: 15,
                     ),
-                    height: 300,
+                    height: 295,
                     width: 300,
                     child: CachedNetworkImage(
                       imageUrl: widget.productEntity.imageUrl,
@@ -250,9 +250,9 @@ class _DetailScreenState extends State<DetailScreen> {
                         height: 20,
                       ),
                       Text(
-                        "€${widget.productEntity.price}",
+                        "€.${widget.productEntity.price}",
                         style: textStyle.titleLarge
-                            .copyWith(color: colors.primary),
+                            .copyWith(color: colors.blackColor),
                       ),
                       const SizedBox(
                         height: 15,

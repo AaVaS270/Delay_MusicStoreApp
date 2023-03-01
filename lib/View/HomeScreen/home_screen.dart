@@ -143,7 +143,7 @@ class _HomeScreenState extends State<HomeScreen>
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                "Feed Your Soul",
+                                "Feed Your Skin",
                                 style: textStyle.titleLarge.copyWith(
                                   overflow: TextOverflow.clip,
                                 ),
@@ -152,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen>
                                 height: 5,
                               ),
                               Text(
-                                "Find the perfect match for your music",
+                                "Find the perfect match",
                                 style: textStyle.bodyNormal,
                               )
                             ],

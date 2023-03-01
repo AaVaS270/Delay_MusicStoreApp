@@ -59,7 +59,7 @@ class _CartScreenState extends State<CartScreen> {
                             return HorizontalProductView(
                                 colors: colors,
                                 margin: const EdgeInsets.only(
-                                    top: 15, right: 10, bottom: 15, left: 10),
+                                    top: 15, right: 6, bottom: 15, left: 10),
                                 product: product,
                                 widget: CupertinoButton(
                                     child: Icon(

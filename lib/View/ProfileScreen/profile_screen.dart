@@ -82,7 +82,7 @@ class ProfileScreen extends StatelessWidget {
                   callback: () {
                     Get.to(const FavoriteScreen());
                   },
-                  itemName: "Favorits",
+                  itemName: "Favorites",
                   textStyle: textStyle,
                   colors: colors),
               profileItem(

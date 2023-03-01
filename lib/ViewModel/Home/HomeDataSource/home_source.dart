@@ -14,7 +14,7 @@ class HomeRemoteDataSource implements HomeDataSource {
   @override
   Future<List<ProductEntity>> getProducts() async {
     final response = await httpClient.get(
-        "https://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl");
+        "https://makeup-api.herokuapp.com/api/v1/products.json?brand=l'oreal");
     final List<ProductEntity> productList = [];
     for (var product in (response.data) as List) {
       productList.add(ProductEntity.fromJson(product));
@@ -26,7 +26,7 @@ class HomeRemoteDataSource implements HomeDataSource {
   Future<List<ProductEntity>> getProductsWithKeyWord(
       {required String keyWord}) async {
     final response = await httpClient.get(
-        "https://makeup-api.herokuapp.com/api/v1/products.json?brand=$keyWord");
+        "https://makeup-api.herokuapp.com/api/v1/products.json?product_category=cream");
     final List<ProductEntity> productList = [];
     final data=(response.data)as List;
     if (data.isNotEmpty) {

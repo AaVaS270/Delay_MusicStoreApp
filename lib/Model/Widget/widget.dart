@@ -132,14 +132,14 @@ class HomeProductView extends StatelessWidget {
                   height: 5,
                 ),
                 Text(
-                  product.name.split("Maybelline").last.substring(0, 7),
+                  product.name.split("L'oreal").last.substring(0, 7),
                   style: textStyle.bodyNormal,
                 ),
                 const SizedBox(
                   height: 5,
                 ),
                 Text(
-                  "€${product.price}",
+                  "r${product.price}",
                   style: textStyle.bodyNormal,
                 )
               ],
@@ -518,11 +518,11 @@ class ProductListView extends StatelessWidget {
                     Text(
                       "See all",
                       style:
-                          textStyle.bodyNormal.copyWith(color: colors.primary),
+                          textStyle.bodyNormal.copyWith(color: colors.blackColor),
                     ),
                     Icon(
                       Icons.keyboard_double_arrow_right,
-                      color: colors.primary,
+                      color: colors.blackColor,
                     ),
                   ],
                 ),
@@ -591,11 +591,11 @@ class BannerListView extends StatelessWidget {
                     Text(
                       "See all",
                       style:
-                          textStyle.bodyNormal.copyWith(color: colors.primary),
+                          textStyle.bodyNormal.copyWith(color: colors.blackColor),
                     ),
                     Icon(
                       Icons.keyboard_double_arrow_right,
-                      color: colors.primary,
+                      color: colors.blackColor,
                     )
                   ],
                 ),
